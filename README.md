@@ -36,7 +36,7 @@ A full-stack **MERN (MongoDB, Express, React, Node.js)** web application that en
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/healthcare-appointment-system.git
+git clone https://github.com/anmol29012023-sudo/doctor-appointment.git
 cd healthcare-appointment-system
 ```
 
