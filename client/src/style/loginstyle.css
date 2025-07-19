@@ -1,0 +1,87 @@
+/* Container for login form */
+.form-c {
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 350px;
+  margin: 60px auto;
+  animation: slideFade 1s ease;
+  transition: transform 0.3s ease;
+}
+
+/* Animation */
+@keyframes slideFade {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Form title */
+.form-c h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #272626;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+/* Labels */
+.ant-form-item-label > label {
+  color: #111111 !important;
+  font-weight: 500;
+}
+
+/* Input fields */
+.ant-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: box-shadow 0.3s ease;
+}
+
+.ant-input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
+}
+
+/* Submit button */
+.form-c .btn-primary {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  transition: background 0.4s, transform 0.2s;
+  margin-top: 10px;
+}
+
+.form-c .btn-primary:hover {
+  background: linear-gradient(135deg, #5b6dee, #6c41b8);
+  transform: scale(1.03);
+}
+
+/* Register link */
+.form-c .ms-3 {
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  color: #3d3d3d;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.form-c .ms-3:hover {
+  color: #2c2c2c;
+  text-decoration: underline;
+}

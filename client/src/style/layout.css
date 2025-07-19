@@ -1,0 +1,212 @@
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f9ff;
+  margin: 0;
+  padding: 0;
+}
+
+.app-logo-1 {
+  font-family: cursive;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 0%;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav .link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav .link:hover {
+  color: #ffd166;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #04427b;
+  z-index: 2000; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  color: white;
+}
+
+.sidenav {
+  position: fixed;
+  top: 0; 
+  right: 0;
+  height: 100%;
+  width: 0;
+  background-color: rgb(0, 0, 0, 0.95);
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 100px; 
+  z-index: 1000; 
+}
+
+.sidenav a,
+.sidenav .span1 {
+  padding: 10px 30px;
+  display: block;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidenav a:hover,
+.sidenav .span1:hover {
+  background-color: #0077b6;
+}
+
+.closebtn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.profile-modal {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  z-index: 1050;
+}
+
+.profile-content {
+  text-align: left;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  padding-bottom: 0%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(10,10,10,0.95)),
+  url('https://www.shutterstock.com/image-photo/doctors-perform-surgery-cardiac-stent-600nw-2479393329.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  max-width: 50%;
+  text-align: center;
+  color: white;
+}
+
+.hero-text h2 {
+   font-size: 42px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-left: 60px;
+}
+
+.cta button,
+.knowmore button {
+  margin: 20px;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  background-color: #00b4d8;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta button:hover,
+.knowmore button:hover {
+  background-color: #0096c7;
+}
+
+.hero img {
+  margin-top: 100px;
+  max-width: 50%;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+ display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  padding-bottom: 0%;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  box-shadow: -1px -6px 4px rgba(0, 0, 0, 0.1);
+  border-top: 2px solid rgb(0, 0, 0, 0.1);
+}
+
+.feature {
+  text-align: center;
+  max-width: 280px;
+  margin: 20px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-8px);
+}
+
+.app-logo {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #444;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #003566;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+.sec{
+    display: flex;
+    margin-left: 65px;
+}

@@ -1,0 +1,28 @@
+.img_doc{
+    width: 250px;
+height: 250px;
+object-fit: cover;
+border-radius: 4px;
+}
+.doc_detail{
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding:20px;
+    background-color: white;
+}
+.main_body{
+    display: ruby;
+    justify-content: center;
+}
+.head{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 25px;
+    font-size: 30px;
+    height: 75px;
+    text-align: center;
+    color: white;
+    background-color: #0a58ca;
+    margin-bottom: 20px;
+}
